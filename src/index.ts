@@ -1,1 +1,3 @@
-console.log('Hello webgl!')
+import { lessonNumberToStartFunction } from 'lessons'
+
+lessonNumberToStartFunction[process.env.LESSON_NUMBER]()

@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "ESNext"],
+    "baseUrl": "src",
     "esModuleInterop": true,
-  }
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+  },
+  "include": ["src"]
 }
